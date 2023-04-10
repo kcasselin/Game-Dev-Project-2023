@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D myRB;
     private Animator myAnim;
+    public VectorValue startingPosition;
 
     [SerializeField]
     private float speed;
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour
     {
         myRB = GetComponent<Rigidbody2D>();
         myAnim = GetComponent<Animator>();
+        transform.position = startingPosition.initialValue;
     }
 
     // Update is called once per frame

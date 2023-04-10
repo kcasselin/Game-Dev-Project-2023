@@ -183,6 +183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 389837221624294085, guid: bbda162f952987f4e85f9bd577625546, type: 3}
+      propertyPath: startingPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: ee9cd579dfa7540cf8cfef54ce90f6d3, type: 2}
     - target: {fileID: 389837221624294087, guid: bbda162f952987f4e85f9bd577625546, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -193,7 +197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 389837221624294087, guid: bbda162f952987f4e85f9bd577625546, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -4.51
       objectReference: {fileID: 0}
     - target: {fileID: 389837221624294087, guid: bbda162f952987f4e85f9bd577625546, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6915,6 +6919,54 @@ PrefabInstance:
     - target: {fileID: 6618323445532703228, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
       propertyPath: m_Name
       value: SceneTransition
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312968188750171719, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
+      propertyPath: fadeWait
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312968188750171719, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
+      propertyPath: cameraMax
+      value: 
+      objectReference: {fileID: 11400000, guid: a1008750a4a9f47398d771db5858ddfe, type: 2}
+    - target: {fileID: 8312968188750171719, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
+      propertyPath: cameraMin
+      value: 
+      objectReference: {fileID: 11400000, guid: ccb9c1a1a39174ba1b93567ddd70d478, type: 2}
+    - target: {fileID: 8312968188750171719, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
+      propertyPath: fadeInPanel
+      value: 
+      objectReference: {fileID: 5999626719438010771, guid: 044857f4e4f4a4e2a8d34a341e47855b, type: 3}
+    - target: {fileID: 8312968188750171719, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
+      propertyPath: fadeOutPanel
+      value: 
+      objectReference: {fileID: 364328486262496434, guid: 175fed7ad6fa246feadff6a410c7ba3e, type: 3}
+    - target: {fileID: 8312968188750171719, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: ee9cd579dfa7540cf8cfef54ce90f6d3, type: 2}
+    - target: {fileID: 8312968188750171719, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
+      propertyPath: cameraNewMax.x
+      value: -13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312968188750171719, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
+      propertyPath: cameraNewMax.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312968188750171719, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
+      propertyPath: cameraNewMin.x
+      value: -15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312968188750171719, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
+      propertyPath: cameraNewMin.y
+      value: -18.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312968188750171719, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
+      propertyPath: playerPosition.x
+      value: -23.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8312968188750171719, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
+      propertyPath: playerPosition.y
+      value: -5.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fc783f6417570c4cbabccf3aad6cb79, type: 3}
